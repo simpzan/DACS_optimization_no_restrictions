@@ -148,7 +148,7 @@ FTRep* createFT(uint *list,uint listLength){
 	kvalues = optimizationk(list,listLength,&nkvalues);
 	
 	
-	ushort kval;
+	uint kval;
 	uint oldval =0;
 	uint newval =0;
 	
